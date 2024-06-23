@@ -2,7 +2,7 @@ import java.awt.Dimension;
 import java.awt.Toolkit;
 import static javax.swing.WindowConstants.DISPOSE_ON_CLOSE;
 
-public class App {
+public class GameStarter {
 
     public static void main(String[] args) {
         MainFrame frame = new MainFrame();
@@ -13,6 +13,5 @@ public class App {
         frame.setTitle("Platformer Game");
         frame.setVisible(true);
         frame.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
-
     }
 }
