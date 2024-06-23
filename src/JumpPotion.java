@@ -1,5 +1,5 @@
 // old code that doesnt work
-//public class jumpPotion {
+//public class JumpPotion {
 //
 //    int x;
 //    int y;
@@ -10,7 +10,7 @@
 //
 //    Rectangle hitBox;
 //
-//    public jumpPotion(int x, int y, int width, int height) {
+//    public JumpPotion(int x, int y, int width, int height) {
 //
 //        this.x = x;
 //        this.y = y;
@@ -47,7 +47,7 @@ import java.awt.Color;
 import java.awt.Graphics2D;
 import java.awt.Rectangle;
 
-public class jumpPotion {
+public class JumpPotion {
 
     int x;
     int y;
@@ -57,7 +57,7 @@ public class jumpPotion {
 
     Rectangle hitBox;
 
-    public jumpPotion(int x, int y, int width, int height) {
+    public JumpPotion(int x, int y, int width, int height) {
         this.x = x;
         startX = x;
         this.y = y;
